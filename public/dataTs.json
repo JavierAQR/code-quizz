@@ -1,0 +1,302 @@
+[
+  {
+    "id": 51,
+    "code": "console.log(typeof NaN);",
+    "answers": ["undefined", "NaN", "string", "number"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 52,
+    "code": "let x: number = 5; console.log(x + '5');",
+    "answers": ["10", "5", "55", "Error"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 53,
+    "code": "let y: any = 'Hello'; console.log((y as string).length);",
+    "answers": ["5", "Error", "undefined", "NaN"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 54,
+    "code": "let z: number[] = [1, 2, 3]; console.log(z[3]);",
+    "answers": ["3", "undefined", "Error", "NaN"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 55,
+    "code": "let a: string = 'TypeScript'; console.log(a.substring(4));",
+    "answers": ["Script", "Type", "Error", "undefined"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 56,
+    "code": "let b: boolean = true; console.log(b.toString());",
+    "answers": ["true", "false", "Error", "undefined"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 57,
+    "code": "let c: number = 10; console.log(c === '10');",
+    "answers": ["true", "false", "Error", "undefined"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 58,
+    "code": "let d: number = 10; console.log(d == '10');",
+    "answers": ["true", "false", "Error", "undefined"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 59,
+    "code": "let e: number = 10; console.log(e + null);",
+    "answers": ["null", "Error", "NaN", "10"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 60,
+    "code": "let f: number = 10; console.log(f + undefined);",
+    "answers": ["NaN", "10", "Error", "undefined"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 61,
+    "code": "let g: number = 10; console.log(g + NaN);",
+    "answers": ["NaN", "10", "Error", "undefined"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 62,
+    "code": "let h: string = '10'; console.log(h + 5);",
+    "answers": ["105", "15", "Error", "undefined"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 63,
+    "code": "let i: number = 10; console.log(i.toString(2));",
+    "answers": ["10", "1010", "Error", "undefined"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 64,
+    "code": "let j: number = 10; console.log(j.toFixed(2));",
+    "answers": ["10", "Error", "10.00", "undefined"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 65,
+    "code": "let k: number = 10; console.log(k.toExponential(2));",
+    "answers": ["1.00e+1", "10", "Error", "undefined"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 66,
+    "code": "let l: number = 10; console.log(l.toPrecision(2));",
+    "answers": ["10", "1.0e+1", "Error", "undefined"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 67,
+    "code": "let m: number = 10; console.log(m.valueOf());",
+    "answers": ["10", "Error", "undefined", "NaN"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 68,
+    "code": "let n: number = 10; console.log(n.toLocaleString());",
+    "answers": ["10", "Error", "undefined", "NaN"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 69,
+    "code": "let o: number = 10; console.log(o.toPrecision(1));",
+    "answers": ["1e+1", "10", "Error", "undefined"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 70,
+    "code": "let p: number = 10; console.log(p.toFixed(0));",
+    "answers": ["10", "10.0", "Error", "undefined"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 71,
+    "code": "let q: number = 10; console.log(q.toExponential(1));",
+    "answers": ["1.0e+1", "10", "Error", "undefined"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 72,
+    "code": "let r: number = 10; console.log(r.toPrecision(3));",
+    "answers": ["10.0", "10", "Error", "undefined"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 73,
+    "code": "let s: number = 10; console.log(s.toLocaleString('en-US'));",
+    "answers": ["10", "Error", "undefined", "NaN"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 74,
+    "code": "let t: number = 10; console.log(t.toString(16));",
+    "answers": ["a", "10", "Error", "undefined"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 75,
+    "code": "let u: number = 10; console.log(u.toString(8));",
+    "answers": ["12", "10", "Error", "undefined"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 76,
+    "code": "let v: number = 10; console.log(v.toString(2));",
+    "answers": ["1010", "10", "Error", "undefined"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 77,
+    "code": "let w: number = 10; console.log(w.toString(10));",
+    "answers": ["10", "Error", "undefined", "NaN"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 78,
+    "code": "let x: number = 10; console.log(x.toString(36));",
+    "answers": ["a", "10", "Error", "undefined"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 79,
+    "code": "let y: number = 10; console.log(y.toString(16));",
+    "answers": ["a", "10", "Error", "undefined"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 80,
+    "code": "let z: number = 10; console.log(z.toString(8));",
+    "answers": ["12", "10", "Error", "undefined"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 81,
+    "code": "let a: number = 10; console.log(a.toString(2));",
+    "answers": ["1010", "10", "Error", "undefined"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 82,
+    "code": "let b: number = 10; console.log(b.toString(10));",
+    "answers": ["10", "Error", "undefined", "NaN"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 83,
+    "code": "let c: number = 10; console.log(c.toString(36));",
+    "answers": ["a", "10", "Error", "undefined"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 84,
+    "code": "let d: number = 10; console.log(d.toString(16));",
+    "answers": ["a", "10", "Error", "undefined"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 85,
+    "code": "let e: number = 10; console.log(e.toString(8));",
+    "answers": ["12", "10", "Error", "undefined"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 86,
+    "code": "let f: number = 10; console.log(f.toString(2));",
+    "answers": ["1010", "10", "Error", "undefined"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 87,
+    "code": "let g: number = 10; console.log(g.toString(10));",
+    "answers": ["10", "Error", "undefined", "NaN"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 88,
+    "code": "let h: number = 10; console.log(h.toString(36));",
+    "answers": ["a", "10", "Error", "undefined"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 89,
+    "code": "let i: number = 10; console.log(i.toString(16));",
+    "answers": ["a", "10", "Error", "undefined"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 90,
+    "code": "let j: number = 10; console.log(j.toString(8));",
+    "answers": ["12", "10", "Error", "undefined"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 91,
+    "code": "let k: number = 10; console.log(k.toString(2));",
+    "answers": ["1010", "10", "Error", "undefined"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 92,
+    "code": "let l: number = 10; console.log(l.toString(10));",
+    "answers": ["10", "Error", "undefined", "NaN"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 93,
+    "code": "let m: number = 10; console.log(m.toString(36));",
+    "answers": ["a", "10", "Error", "undefined"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 94,
+    "code": "let n: number = 10; console.log(n.toString(16));",
+    "answers": ["a", "10", "Error", "undefined"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 95,
+    "code": "let o: number = 10; console.log(o.toString(8));",
+    "answers": ["12", "10", "Error", "undefined"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 96,
+    "code": "let p: number = 10; console.log(p.toString(2));",
+    "answers": ["1010", "10", "Error", "undefined"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 97,
+    "code": "let q: number = 10; console.log(q.toString(10));",
+    "answers": ["10", "Error", "undefined", "NaN"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 98,
+    "code": "let r: number = 10; console.log(r.toString(36));",
+    "answers": ["a", "10", "Error", "undefined"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 99,
+    "code": "let s: number = 10; console.log(s.toString(16));",
+    "answers": ["a", "10", "Error", "undefined"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 100,
+    "code": "let t: number = 10; console.log(t.toString(8));",
+    "answers": ["12", "10", "Error", "undefined"],
+    "correctAnswer": 0
+  }
+]
