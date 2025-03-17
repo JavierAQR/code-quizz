@@ -19,7 +19,7 @@ const Footer = ({ lang }: Props) => {
         variant="contained"
         sx={{ marginLeft: "20px" }}
         onClick={() => {
-          fetchQuestions(lang);
+          fetchQuestions(lang.slice(0, 2));
           reset();
         }}
       >

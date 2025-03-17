@@ -31,7 +31,7 @@ const LanguageButton = ({ langQuiz, setLang }: Props) => {
       sx={{ gap: 2, width: 260, bgcolor: "#202020" }}
       onClick={() => {
         fetchQuestions(langQuiz.language);
-        setLang(langQuiz.language);
+        setLang(langQuiz.text);
       }}
       style={style}
       ref={setNodeRef}

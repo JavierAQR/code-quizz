@@ -4,9 +4,11 @@ import Start from "./Start";
 import Game from "./Game";
 import { useState } from "react";
 import Footer from "./Footer";
+import { useQuestionsStore } from "./store/question";
 
 function App() {
   const [lang, setLang] = useState<string | null>(null);
+  const reset = useQuestionsStore((state) => state.reset);
 
   return (
     <main>
@@ -21,7 +23,10 @@ function App() {
             <Button
               variant="outlined"
               sx={{ alignSelf: "flex-end" }}
-              onClick={() => setLang(null)}
+              onClick={() => {
+                setLang(null);
+                reset();
+              }}
             >
               Regresar
             </Button>
